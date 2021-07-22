@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <p class="navbar-item title">Weather Dashboard</p>
+            </div>
+        </nav>
+    </header>
+
+    <div class="style_searchsec" id="search_sec">
+        <input class="input" type="text" placeholder="Type city" id="search_input">
+        <button class="button" id="search" onclick="openApi()">Search</button>
+
+        <div id="city_list"></div>
+    </div>
+
+    <div class="style_weather" id="weather_sec">
+        <div class="card">
+            <h2>Melbourne</h2>
+            <p class="title">18</p>
+            <i class="fas fa-moon"></i>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>    
+</body>
+</html>
