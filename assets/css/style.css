@@ -2,8 +2,37 @@ i {
     font-size: 24px;
 }
 
+.style_searchsec {
+    position: absolute;
+    padding: 20px;
+    max-width: 30%;
+}
+
+.style_weather {
+    display: flex;
+    justify-content: center;
+}
+
 .card {
     margin: 20px;
     padding: 20px;
     text-align: center;
+}
+
+.weather_card {
+    margin: 20px;
+    flex-basis: 13%;
+}
+
+.city {
+    font-size: 24px;
+}
+
+.temp {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.condition {
+    font-size: 20px;
 }
